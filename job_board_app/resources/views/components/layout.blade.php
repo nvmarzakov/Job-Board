@@ -6,7 +6,10 @@
     <title>Job Board</title>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body>
+<body class="bg-secondary-subtle fw-semibold ">
+    <div class="container mt-4">
     {{ $slot }}
+    </div>
+    
 </body>
 </html>
