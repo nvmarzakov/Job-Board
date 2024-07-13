@@ -19,8 +19,6 @@
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
     <body >
-       <div class="card">
-            <div class="card-header text-center">test</div>
-       </div>
+       {{ $slot }}
     </body>
 </html>
