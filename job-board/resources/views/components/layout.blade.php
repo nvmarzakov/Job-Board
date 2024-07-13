@@ -18,7 +18,7 @@
         <!--using bootstrap-->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
-    <body >
+    <body class="container mx-auto mt-5 bg-info">
        {{ $slot }}
     </body>
 </html>
